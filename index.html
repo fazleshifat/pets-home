@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Home</title>
+
+    <!-- DaisyUI and Tailwind css connected here -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fontawsome connected here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- font styles -->
+    <style>
+        .font-primary {
+            font-family: "ADLaM Display";
+        }
+
+        .font-secondary {
+            font-family: "Sora";
+        }
+
+        .color-primary {
+            color: black;
+        }
+
+        .color-secondary {
+            color: rgba(30, 29, 29, 0.708);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- navbar section -->
+        <div class="bg-orange-50">
+            <div class="navbar container mx-auto color-secondary border-b-2 border-orange-800 lg:border-none">
+                <div class="navbar mx-auto">
+                    <div class="navbar-start">
+                        <!-- Navfor dekstop -->
+                        <img src="assets/logo-header.png" alt="logo" class="w-7 lg:w-auto">
+                        <a class="btn btn-ghost text-2xl lg:text-4xl font-medium font-primary ">Pets Home</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 font-secondary text-xl">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a> </li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end hidden lg:flex ">
+                        <button class="btn btn-ghost rounded-full -mr-3"><i
+                                class="fa-regular fa-bell text-3xl"></i></button>
+                        <button class="btn btn-ghost rounded-full"><i
+                                class="fa-solid fa-magnifying-glass text-3xl"></i></button>
+                        <button class="btn text-xl w-44 border-1 border-orange-500">Login</button>
+                        <button class="btn text-xl w-44 bg-yellow-400 ml-3">Register</button>
+                    </div>
+                </div>
+                <!-- hamburger for mobile view -->
+                <div class="dropdown lg:hidden text-right">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+
+        <!-- Hero section -->
+
+        <!-- <section class="container mx-auto lg:h-[70rem] bg-[url('./assets/cat-big-copy.png')]  bg-center bg-cover"> -->
+        <section class="container mx-auto px-5">
+
+            <!-- text content of hero section -->
+            <div class=" space-y-3 lg:space-y-14 lg:absolute mt-12 lg:mt-32 mx-auto">
+                <h1 class=" text-3xl lg:text-6xl font-bold leading-tight font-primary">Pamper Your Pet,<br> Because They Deserve <br class="hidden lg:flex">
+                    the Bes</h1>
+                <p class="text-sm lg:text-2xl">Discover a world of treats, toys, and essentials handpicked for <br class="hidden lg:flex"> your furry
+                    friends. Shop now and make tails wag with joy!</p>
+                <button class="btn text-sm lg:text-xl w-32 lg:w-44 bg-yellow-400">Find a pet</button>
+            </div>
+
+            <!-- banner iamge -->
+            <div>
+                <img src="assets/cat-big-copy.png" alt="cat" class="mx-auto">
+            </div>
+        </section>
+
+        <!-- browse by catagories section -->
+        <section class="container mx-auto mt-32 space-y-8">
+            <h1 class="text-4xl font-bold">Browse By Catagories</h1>
+
+            <!-- browse catagories cards -->
+            <div>
+                <div class="w-64 h-80 bg-amber-400 rounded-2xl">
+                    <img src="assets/dog-cartoon.png" alt="dog" class="w-20 bg-slate-100 ">
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
