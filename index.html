@@ -80,8 +80,9 @@
 
         <!-- Hero section -->
 
-        <section class="container px-5 mx-auto h-[54rem] lg:h-[60rem] bg-[url('./assets/cat-big-copy.png')]  bg-center bg-contain bg-no-repeat">
-        <!-- <section class="container mx-auto px-5 flex justify-between"> -->
+        <section
+            class="container px-5 mx-auto h-[54rem] lg:h-[60rem] bg-[url('./assets/cat-big-copy.png')]  bg-center bg-contain bg-no-repeat">
+            <!-- <section class="container mx-auto px-5 flex justify-between"> -->
 
             <!-- text content of hero section -->
             <div class=" space-y-3 lg:space-y-14 lg:absolute mt-12 lg:mt-32 mx-auto ">
@@ -96,20 +97,53 @@
             </div>
 
             <!-- Animation -->
+            
 
-            <div class=" lg:pt-32 lg:mr-32 chat chat-end ">
+            <!-- animation for Dekstop -->
+            <div class="pt-32 mr-32 chat chat-end hidden lg:grid">
 
 
 
-                <h1 class="chat-bubble w-auto lg:h-auto text-xs lg:text-xl text-center mb-1 animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary">You wanna
+                <h1
+                    class="chat-bubble  text-xs lg:text-xl text-center -mb-4 animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary"> You wanna
                     take me?</h1>
-                <h1 class="chat-bubble lg:w-auto h-2 lg:h-auto text-xs lg:text-xl text-center animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary">Reach
+                <h1
+                    class="chat-bubble text-xs lg:text-xl text-center animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary">
+                    Reach
                     out by the links!! I am waiting </h1>
 
-                <img src="assets/cat-cartoon.png" alt="cat" class="w-6 lg:w-10">
-                <div class="chat-footer opacity-50 ">sent from cat</div>
+                <img src="assets/cat-chat.png" alt="cat" class="w-8 lg:w-16">
+                <div class="chat-footer opacity-50 text-xl">sent from cat</div>
 
             </div>
+
+            
+            <!-- animation for Mobile -->
+            <div class="mt-14 -ml-2 chat chat-start lg:hidden grid">
+
+               
+
+                <div class="chat chat-start gap-0">
+                    
+                    <div class="chat-image avatar">
+                      <div class="w-10 rounded-full">
+                        <img src="assets/cat-chat.png " alt="cat" class="w-8 lg:w-16">
+                      </div>
+                    </div>
+                    <h1
+                    class="py-2 px-2 rounded-tr-xl rounded-br-xl rounded-tl-xl  text-xs mb-1 animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary"> You wanna
+                    take me?</h1>
+                <h1
+                    class="py-2 px-2 rounded-tr-xl rounded-br-xl rounded-tl-xl text-xs animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary">
+                    Reach
+                    out by the links!! I am waiting </h1>
+                    <div class="chat-footer opacity-50 text-xs">sent from cat</div>
+                  </div>
+
+            </div>
+
+
+
 
 
             <!-- banner image -->
@@ -551,16 +585,15 @@
 
     <footer class="footer mx-auto flex flex-col bg-[#F9DF8A] mt-56 pb-2 lg:pb-20 lg:mt-[20rem] ">
 
-        
+
 
         <div class="container mx-auto flex flex-col lg:justify-between lg:items-center">
 
             <!-- Subscription Section -->
-        <!-- <section class="border-2 border-black mx-auto -mt-56 lg:-mt-80"> -->
-
-            <!-- <h1 class="text-2xl lg:text-5xl font-bold font-primary my-14 lg:my-28">Get Touch With Us</h1> -->
+            
+            <!-- <section class="border-2 border-black mx-auto -mt-56 lg:-mt-80"> --> <!-- <h1 class="text-2xl lg:text-5xl font-bold font-primary my-14 lg:my-28">Get Touch With Us</h1> -->
             <div
-                class="-mt-56 lg:-mt-96 lg:w-full mx-5 lg:mx-auto flex flex-col lg:flex-row items-center lg:gap-44 py-5 px-5 lg:py-20 bg-orange-50 lg:pl-72 rounded-2xl">
+                class="-mt-56 lg:-mt-80 lg:w-full mx-5 lg:mx-auto flex flex-col lg:flex-row items-center lg:gap-44 py-5 px-5 lg:py-20 bg-orange-50 lg:pl-72 rounded-2xl">
                 <!-- Image content -->
                 <div>
                     <img src="assets/cute-pet-mid.png" alt="dog" class="w-44 lg:w-96">
@@ -582,8 +615,8 @@
                 </div>
 
             </div>
-        </section>
-            
+            </section>
+
 
             <!-- Footer content -->
             <div class="mt-20 lg:mt-40 container flex flex-col lg:flex-row lg:justify-between lg:items-center p-5">
@@ -596,33 +629,33 @@
                         Discover a world of treats, toys and <br> essentials handpicked for your furry <br> friends
                     </p>
                 </div>
-    
-    
+
+
                 <nav class="font-secondary text-xs lg:text-xl flex flex-col space-y-4 mt-14">
                     <a class="link link-hover">About us</a>
                     <a class="link link-hover">Contact</a>
                     <a class="link link-hover">Jobs</a>
                     <a class="link link-hover">Press kit</a>
                 </nav>
-    
-    
+
+
                 <div class="mt-14 lg:mt-32">
                     <nav>
                         <h6 class="footer-title text-sm lg:text-xl item">Follow Us</h6>
                         <div class="grid grid-flow-col">
                             <div class="space-x-4">
-                                
+
                                 <i class="fa-brands fa-facebook text-xl lg:text-3xl"></i>
-                            </a>
-                            <a>
-                                <i class="fa-brands fa-instagram text-xl lg:text-3xl"></i>
-                            </a>
-                            <a>
-                                <i class="fa-brands fa-linkedin text-xl lg:text-3xl"></i>
-                            </a>
-                            <a>
-                                <i class="fa-brands fa-youtube text-xl lg:text-3xl"></i>
-                            </a>
+                                </a>
+                                <a>
+                                    <i class="fa-brands fa-instagram text-xl lg:text-3xl"></i>
+                                </a>
+                                <a>
+                                    <i class="fa-brands fa-linkedin text-xl lg:text-3xl"></i>
+                                </a>
+                                <a>
+                                    <i class="fa-brands fa-youtube text-xl lg:text-3xl"></i>
+                                </a>
                             </div>
                         </div>
                     </nav>
