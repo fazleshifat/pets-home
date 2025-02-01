@@ -80,8 +80,8 @@
 
         <!-- Hero section -->
 
-        <!-- <section class="container mx-auto lg:h-[70rem] bg-[url('./assets/cat-big-copy.png')]  bg-center bg-cover"> -->
-        <section class="container mx-auto px-5 ">
+        <section class="container px-5 mx-auto h-[54rem] lg:h-[60rem] bg-[url('./assets/cat-big-copy.png')]  bg-center bg-contain bg-no-repeat">
+        <!-- <section class="container mx-auto px-5 flex justify-between"> -->
 
             <!-- text content of hero section -->
             <div class=" space-y-3 lg:space-y-14 lg:absolute mt-12 lg:mt-32 mx-auto ">
@@ -97,12 +97,14 @@
 
             <!-- Animation -->
 
-            <div class="lg:absolute lg:pt-96 lg:ml-[50rem] chat chat-end ">
+            <div class=" lg:pt-32 lg:mr-32 chat chat-end ">
 
 
 
-                <h1 class="chat-bubble w-auto lg:h-16 text-xs lg:text-2xl text-center mb-1 animate-bounce">You wanna take me?</h1>
-                <h1 class="chat-bubble lg:w-[30rem] h-2 lg:h-16 text-xs lg:text-2xl text-center animate-bounce">Reach out by the links!! I am waiting </h1>
+                <h1 class="chat-bubble w-auto lg:h-auto text-xs lg:text-xl text-center mb-1 animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary">You wanna
+                    take me?</h1>
+                <h1 class="chat-bubble lg:w-auto h-2 lg:h-auto text-xs lg:text-xl text-center animate-bounce text-black bg-gradient-to-r from-purple-500 to-pink-500 font-secondary">Reach
+                    out by the links!! I am waiting </h1>
 
                 <img src="assets/cat-cartoon.png" alt="cat" class="w-6 lg:w-10">
                 <div class="chat-footer opacity-50 ">sent from cat</div>
@@ -113,9 +115,9 @@
             <!-- banner image -->
 
 
-            <div class="">
+            <!-- <div class="">
                 <img src="assets/cat-big-copy.png" alt="cat" class="mx-auto">
-            </div>
+            </div> -->
         </section>
     </header>
 
@@ -123,7 +125,7 @@
 
     <!-- browse by catagories section -->
     <main>
-        <section class="container mx-auto mt-14 lg::mt-40 mb-14 lg:mb-40 space-y-8 px-5">
+        <section class="container mx-auto -mt-64 lg:mt-40 mb-14 lg:mb-40 space-y-8 px-5">
             <h1 class="text-2xl lg:text-5xl font-bold">Browse By Catagories</h1>
 
             <!-- browse catagories cards -->
@@ -540,20 +542,25 @@
             </div>
         </section>
 
-        <!-- Subscription Section -->
+
 
 
     </main>
 
     <!-- Footer section start from here -->
 
-    <footer class="footer mx-auto flex flex-col bg-[#F9DF8A] mt-56 lg:mt-[20rem] ">
+    <footer class="footer mx-auto flex flex-col bg-[#F9DF8A] mt-56 pb-2 lg:pb-20 lg:mt-[20rem] ">
 
-        <section class="w-[100%] mx-auto -mt-56 lg:-mt-80">
+        
+
+        <div class="container mx-auto flex flex-col lg:justify-between lg:items-center">
+
+            <!-- Subscription Section -->
+        <!-- <section class="border-2 border-black mx-auto -mt-56 lg:-mt-80"> -->
 
             <!-- <h1 class="text-2xl lg:text-5xl font-bold font-primary my-14 lg:my-28">Get Touch With Us</h1> -->
             <div
-                class=" mx-5 lg:mx-auto flex flex-col lg:flex-row items-center lg:gap-20 py-5 lg:py-20 bg-orange-50 px-8 rounded-2xl">
+                class="-mt-56 lg:-mt-96 lg:w-full mx-5 lg:mx-auto flex flex-col lg:flex-row items-center lg:gap-44 py-5 px-5 lg:py-20 bg-orange-50 lg:pl-72 rounded-2xl">
                 <!-- Image content -->
                 <div>
                     <img src="assets/cute-pet-mid.png" alt="dog" class="w-44 lg:w-96">
@@ -576,45 +583,50 @@
 
             </div>
         </section>
+            
 
-        <div class="container mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-center p-5">
-            <div>
-                <div class="flex items-center gap-1 lg:gap-5 mb-4 lg:mb-11">
-                    <img src="assets/logo-footer.png" alt="logo" class="w-10 lg:w-auto">
-                    <h1 class="text-xl lg:text-3xl color-secondary font-primary">Pets Home</h1>
-                </div>
-                <p class=" text-sm lg:text-2xl color-secondary">
-                    Discover a world of treats, toys and <br> essentials handpicked for your furry <br> friends
-                </p>
-            </div>
-
-
-            <nav class="font-secondary text-xs lg:text-xl flex flex-col space-y-4 mt-14">
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Contact</a>
-                <a class="link link-hover">Jobs</a>
-                <a class="link link-hover">Press kit</a>
-            </nav>
-
-
-            <div class="mt-14 lg:mt-32">
-                <nav>
-                    <h6 class="footer-title text-sm lg:text-xl item">Follow Us</h6>
-                    <div class="grid grid-flow-col gap-4">
-                        <a>
-                            <i class="fa-brands fa-facebook text-xl lg:text-3xl"></i>
-                        </a>
-                        <a>
-                            <i class="fa-brands fa-instagram text-xl lg:text-3xl"></i>
-                        </a>
-                        <a>
-                            <i class="fa-brands fa-linkedin text-xl lg:text-3xl"></i>
-                        </a>
-                        <a>
-                            <i class="fa-brands fa-youtube text-xl lg:text-3xl"></i>
-                        </a>
+            <!-- Footer content -->
+            <div class="mt-20 lg:mt-40 container flex flex-col lg:flex-row lg:justify-between lg:items-center p-5">
+                <div>
+                    <div class="flex items-center gap-1 lg:gap-5 mb-4 lg:mb-11">
+                        <img src="assets/logo-footer.png" alt="logo" class="w-10 lg:w-auto">
+                        <h1 class="text-xl lg:text-3xl color-secondary font-primary">Pets Home</h1>
                     </div>
+                    <p class=" text-sm lg:text-2xl color-secondary">
+                        Discover a world of treats, toys and <br> essentials handpicked for your furry <br> friends
+                    </p>
+                </div>
+    
+    
+                <nav class="font-secondary text-xs lg:text-xl flex flex-col space-y-4 mt-14">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
                 </nav>
+    
+    
+                <div class="mt-14 lg:mt-32">
+                    <nav>
+                        <h6 class="footer-title text-sm lg:text-xl item">Follow Us</h6>
+                        <div class="grid grid-flow-col">
+                            <div class="space-x-4">
+                                
+                                <i class="fa-brands fa-facebook text-xl lg:text-3xl"></i>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-instagram text-xl lg:text-3xl"></i>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-linkedin text-xl lg:text-3xl"></i>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-youtube text-xl lg:text-3xl"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </footer>
